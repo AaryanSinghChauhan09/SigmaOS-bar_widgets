@@ -3,12 +3,12 @@ name = "SigmaOS-bar_widgets"
 tier = 2
 stability = "scaffold"
 language = "rust"
-description = "bar_widgets component"
+description = "A Rust status-bar widget state model. The crate exposes widget positions and interaction metadata, widget configuration and visibility state, and a manager for organizing widgets in left, center, and right groups."
 upstream = []
 
 [contract]
 provides = ["component"]
-depends_on = []
+depends_on = ["SigmaOS-system"]
 
 [maturity]
 status = "Scaffold"
